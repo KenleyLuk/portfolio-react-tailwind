@@ -1,6 +1,7 @@
 // src/components/Hero.jsx
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
+import personImage from '../assets/person_image.jpg';
 
 export default function Hero() {
     return (
@@ -48,7 +49,7 @@ export default function Hero() {
 
                 <div className="flex-1 flex items-center justify-end p-0 m-0" style={{ minHeight: '300px' }}>
                     <img 
-                        src="/src/assets/person_image.jpg" alt="Kenley's photo"
+                        src={personImage} alt="Kenley's photo"
                         className="max-h-[240px] object-contain rounded-[20px]"/>
                 </div>
             </div>
