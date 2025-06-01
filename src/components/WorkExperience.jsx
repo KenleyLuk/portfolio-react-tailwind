@@ -1,5 +1,10 @@
 // src/components/WorkExperience.jsx
 import React, { useState} from "react";
+import hketLogo from '../assets/hket_logo.jpg';
+import chiefGroupLogo from '../assets/chief_group_logo.jpeg';
+import ztoreLogo from '../assets/ztore_logo.png';
+import universityLogo from '../assets/education_logo/university_logo.jpg';
+import iveLogo from '../assets/education_logo/ive_logo.jpg';
 
 export default function WorkExperience() {
 
@@ -20,7 +25,7 @@ export default function WorkExperience() {
     },
     {
       company: "Hong Kong Economic Times",
-      logoImage: '/src/assets/hket_logo.jpg',
+      logoImage: hketLogo,
       title: "Senior Developer",
       duration: "Dec 2022 - Mar 2023",
       description: [
@@ -31,7 +36,7 @@ export default function WorkExperience() {
     },
     {
       company: "Chief Group Limited",
-      logoImage: '/src/assets/chief_group_logo.jpeg',
+      logoImage: chiefGroupLogo,
       title: "Senior Mobile Apps Developer",
       duration: "Sep 2021 - Nov 2022",
       description: [
@@ -41,7 +46,7 @@ export default function WorkExperience() {
     },
     {
       company: "Ztore HK Limited",
-      logoImage: '/src/assets/ztore_logo.png',
+      logoImage: ztoreLogo,
       title: "Senior Mobile Apps Developer",
       duration: "Aug 2018 - Sep 2021",
       description: [
@@ -55,7 +60,7 @@ export default function WorkExperience() {
   const educationExperiences = [
     {
       company: "Coventry University",
-      logoImage: '/src/assets/education_logo/university_logo.jpg',
+      logoImage: universityLogo,
       title: "Bachelor\s degree, Computer Science",
       duration: "Sep 2016 - Jun 2017",
       description: [
@@ -65,7 +70,7 @@ export default function WorkExperience() {
     },
     {
       company: "Hong Kong Institute of Vocational Education",
-      logoImage: '/src/assets/education_logo/ive_logo.jpg',
+      logoImage: iveLogo,
       title: "Higher Diploma, Software Engineering",
       duration: "Sep 2014 - Jun 2016",
       description: [

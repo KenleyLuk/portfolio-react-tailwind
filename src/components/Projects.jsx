@@ -1,6 +1,14 @@
 import React, { useEffect } from "react";
 import { FaGithub, FaGooglePlay, FaApple, FaGlobe } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
+import queenpuzzleBanner from '../assets/app_logo/queenpuzzle_banner.png';
+import rememberBanner from '../assets/app_logo/remember_banner.png';
+import cloverBanner from '../assets/app_logo/clover_banner.png';
+import hketBanner from '../assets/app_logo/hket.png';
+import chiefGroup from '../assets/app_logo/chief_group.jpeg';
+import ztoreLogo from '../assets/app_logo/ztore.png';
+import spuLogo from '../assets/app_logo/spu.png';
+import lmsLogo from '../assets/app_logo/lms.png';
 
 export default function Projects({ 
     title = "Featured projects", 
@@ -18,7 +26,7 @@ export default function Projects({
     const projectsData = [
         {
             id: 1,
-            image: '/src/assets/app_logo/queenpuzzle_banner.png',
+            image: queenpuzzleBanner,
             title: 'Queens Puzzle - Logic Game',
             description: 'Challenge your mind with a colorful twist on the classic N-Queens puzzle!.',
             technologies: ['Flutter', 'Dart', 'Riverpod'],
@@ -29,7 +37,7 @@ export default function Projects({
         },
         {
             id: 2,
-            image: '/src/assets/app_logo/remember_banner.png',
+            image: rememberBanner,
             title: 'Remember - Expense and Income',
             description: 'Track income & expenses effortlessly with Remember!',
             technologies: ['Kotlin', 'AWS Lambda', 'AWS RDS', 'Github Action(CICD)'],
@@ -40,7 +48,7 @@ export default function Projects({
         },
         {
             id: 3,
-            image: '/src/assets/app_logo/clover_banner.png',
+            image: cloverBanner,
             title: 'Clover - Daily Affirmations',
             description: 'This daily affirmations app is designed to help you shift your mindset, build self-esteem, and reframe limiting beliefs.',
             technologies: ['Jetpack Compose', 'AWS S3', 'AWS', 'Room Database'],
@@ -50,7 +58,7 @@ export default function Projects({
         },
         {
             id: 4,
-            image: '/src/assets/hket_banner.png',
+            image: hketBanner,
             title: 'Hong Kong Economic Times(HKET)',
             description: 'A multimedia application provides financial information.',
             technologies: ['Kotlin', 'Flow', 'GraphQL', 'Jetpack Compose'],
@@ -60,7 +68,7 @@ export default function Projects({
         },
         {
             id: 5,
-            image: '/src/assets/chief_group.jpeg',
+            image: chiefGroup,
             title: 'Chief Trader - Stock & Funds',
             description: 'A stock trading platform that includes trading for US stocks, options, Hong Kong stocks and China stocks.',
             technologies: ['Kotlin', 'Jetpack Compose', 'Redux', 'Redis', 'Clear Architecture'],
@@ -70,7 +78,7 @@ export default function Projects({
         },
         {
             id: 6,
-            image: '/src/assets/app_logo/ztore.png',
+            image: ztoreLogo,
             title: 'Ztore App',
             description: 'Ztore is a comprehensive online shopping platform that offers seamless product browsing and efficient checkout services.',
             technologies: ['Kotlin', 'Jave', 'Rest API', 'Credit Card Payment'],
@@ -80,7 +88,7 @@ export default function Projects({
         },
         {
             id: 7,
-            image: '/src/assets/app_logo/spu.png',
+            image: spuLogo,
             title: 'Self-pickup App',
             description: 'I independently developed an application for store staff that utilizes a local payment system to process charges and allows for scanning tickets to retrieve purchases.',
             technologies: ['Kotlin', 'MVVM', 'Octopus Payment', 'Firebase Authentication', ],
@@ -90,7 +98,7 @@ export default function Projects({
         },
         {
             id: 8,
-            image: '/src/assets/app_logo/lms.png',
+            image: lmsLogo,
             title: 'Logistic Managmement Application',
             description: 'I independently developed a logistic mobile application, which provides management and tracking capabilities.',
             technologies: ['Flutter', 'Provider', 'GPS location'],
