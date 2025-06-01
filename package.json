@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://kenleyluk.github.io/portfolio-react-tailwind",
+  "homepage": "https://kenleyluk.github.io/portfolio-react-tailwind/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
