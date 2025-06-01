@@ -22,7 +22,7 @@ export default function Hero() {
                     </p>
 
                     <div className="flex flex-row items-center mt-10"> 
-                        <a href="/resume.pdf" 
+                        <a href="/portfolio-react-tailwind/resume.pdf" 
                            download="Kenley_Luk_resume.pdf"
                            className="flex w-fit items-center gap-2 px-4 py-2 border border-gray-500 rounded-lg text-white hover:bg-gray-800 transition-colors">
                             Resume
